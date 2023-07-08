@@ -1,10 +1,10 @@
-const isGithubActions = process.env.GITHUB_ACTIONS || false
+const isGithubActions = process.env.GH_ACTIONS || true
 
 let assetPrefix = '/'
 let basePath = '/'
 
 if (isGithubActions) {
-  const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '')
+  const repo = process.env.GH_REPOSITORY.replace(/.*?\//, '')
 
   assetPrefix = `/${repo}/`
   basePath = `/${repo}`
