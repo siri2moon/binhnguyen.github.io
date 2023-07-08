@@ -15,9 +15,13 @@ export const greetings: GreetingsType = {
   name: 'Binh Nguyen',
   title: "Hi all, I'm Binh",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+    "I'm passionate Full Stack web developer having an experience of web applications with PHP, Ruby, NestJS, React.js, Next.js, VueJs. \n I've worked as web developer for 8 years already. And 6 years for leading development\n" +
+      "team.\n" +
+      "I have strong knowledge of the PHP, OOP, Javascript and how identify and implements\n" +
+      "most common design pattern.\n" +
+      "I am open to learn and implement any new technologies\n",
   resumeLink:
-    'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
+    'https://drive.google.com/file/d/1Mdlrxw67Sys4mgJmBUZMhSVurN5GP3St/view?usp=sharing',
 };
 
 export const openSource = {
@@ -27,12 +31,11 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://binhnguyen.github.io/',
+  url: 'https://siri2moon.github.io/',
   linkedin: 'https://www.linkedin.com/in/siri2moon/',
   github: 'https://github.com/siri2moon',
   instagram: 'https://www.instagram.com/siri2moon',
   facebook: 'https://www.facebook.com/binhnguyenit',
-  twitter: 'https://twitter.com/siri2moon',
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -196,23 +199,23 @@ export const skillsSection: SkillsSectionType = {
 export const SkillBars: SkillBarsType[] = [
   {
     Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
+    progressPercentage: '80', //Insert relative proficiency in percentage
   },
   {
     Stack: 'Backend',
-    progressPercentage: '70',
+    progressPercentage: '90',
   },
   {
     Stack: 'Programming',
-    progressPercentage: '60',
+    progressPercentage: '70',
   },
 ];
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
+    schoolName: 'Danang University',
     subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
+    duration: 'September 2011 - April 2015',
     desc: 'Participated in the research of XXX and published 3 papers.',
     grade: 'Grade A',
     descBullets: [
@@ -295,7 +298,7 @@ export const feedbacks: FeedbackType[] = [
 ];
 
 // option to hide or show the ContactUs component
-export const showContactUs: boolean = true;
+export const showContactUs: boolean = false;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {

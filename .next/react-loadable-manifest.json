@@ -1,63 +1,56 @@
 {
   "index.tsx -> ../components/GithubProfileCard": {
-    "id": 8077,
+    "id": "index.tsx -> ../components/GithubProfileCard",
     "files": [
-      "static/chunks/77.7c3b5748912cb822.js"
+      "static/chunks/components_GithubProfileCard_tsx.js"
     ]
   },
   "index.tsx -> ../components/Navigation": {
-    "id": 4880,
+    "id": "index.tsx -> ../components/Navigation",
     "files": [
-      "static/chunks/880.6171502185e67763.js"
+      "static/chunks/components_Navigation_tsx.js"
     ]
   },
   "index.tsx -> ../containers/Education": {
-    "id": 4318,
+    "id": "index.tsx -> ../containers/Education",
     "files": [
-      "static/chunks/318.0f8bf026b669de51.js"
+      "static/chunks/containers_Education_tsx.js"
     ]
   },
   "index.tsx -> ../containers/Experience": {
-    "id": 2694,
+    "id": "index.tsx -> ../containers/Experience",
     "files": [
-      "static/chunks/694.bd926d6b87181fe8.js"
+      "static/chunks/containers_Experience_tsx.js"
     ]
   },
   "index.tsx -> ../containers/Feedbacks": {
-    "id": 2085,
+    "id": "index.tsx -> ../containers/Feedbacks",
     "files": [
-      "static/chunks/85.acbb60f0be5d3175.js"
+      "static/chunks/containers_Feedbacks_tsx.js"
     ]
   },
   "index.tsx -> ../containers/Greetings": {
-    "id": 9471,
+    "id": "index.tsx -> ../containers/Greetings",
     "files": [
-      "static/chunks/ea88be26.c636940fa67ae4a2.js",
-      "static/chunks/464.0a7aa0d31d21811f.js",
-      "static/chunks/471.bc948f6061f26244.js"
+      "static/chunks/containers_Greetings_tsx.js"
     ]
   },
   "index.tsx -> ../containers/Proficiency": {
-    "id": 2041,
+    "id": "index.tsx -> ../containers/Proficiency",
     "files": [
-      "static/chunks/ea88be26.c636940fa67ae4a2.js",
-      "static/chunks/464.0a7aa0d31d21811f.js",
-      "static/chunks/41.3756721117e1d501.js"
+      "static/chunks/containers_Proficiency_tsx.js"
     ]
   },
   "index.tsx -> ../containers/Projects": {
-    "id": 4668,
+    "id": "index.tsx -> ../containers/Projects",
     "files": [
-      "static/chunks/668.a2675a5eaed63483.js"
+      "static/chunks/containers_Projects_tsx.js"
     ]
   },
   "index.tsx -> ../containers/Skills": {
-    "id": 7007,
+    "id": "index.tsx -> ../containers/Skills",
     "files": [
-      "static/chunks/ea88be26.c636940fa67ae4a2.js",
-      "static/chunks/464.0a7aa0d31d21811f.js",
-      "static/chunks/731.413119472ecf4b4a.js",
-      "static/chunks/7.aed62c004adf30a1.js"
+      "static/chunks/containers_Skills_tsx.js"
     ]
   }
 }
