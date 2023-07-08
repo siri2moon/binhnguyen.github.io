@@ -32,7 +32,11 @@ const Greetings = () => {
                   <h1 className="display-3 text-white">
                     {greetings.title + ' '}
                   </h1>
-                  <p className="lead text-white">{greetings.description}</p>
+                  {greetings.descriptions?.map((t) => {
+                    return (
+                        <p className="lead text-white">{t}</p>
+                    )
+                  })}
                   <SocialLinks />
                   {greetings.resumeLink && (
                     <div className="btn-wrapper my-4">

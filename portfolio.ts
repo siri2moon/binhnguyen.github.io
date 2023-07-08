@@ -14,12 +14,15 @@ import {
 export const greetings: GreetingsType = {
   name: 'Binh Nguyen',
   title: "Hi all, I'm Binh",
-  description:
-    "I'm passionate Full Stack web developer having an experience of web applications with PHP, Ruby, NestJS, React.js, Next.js, VueJs. \n I've worked as web developer for 8 years already. And 6 years for leading development\n" +
-      "team.\n" +
-      "I have strong knowledge of the PHP, OOP, Javascript and how identify and implements\n" +
-      "most common design pattern.\n" +
-      "I am open to learn and implement any new technologies\n",
+  descriptions: [
+      "I'm passionate Full Stack web developer having an experience of web applications " +
+      "with PHP, Ruby, NestJS, React.js, Next.js, VueJs. ",
+      "I've worked as web developer for 8 years already. And 6 years for leading development team." +
+      " I have strong knowledge of the PHP, OOP, Javascript and how identify and implements\n" +
+      "most common design pattern.",
+      "I am open to learn and implement any new technologies"
+  ],
+
   resumeLink:
     'https://drive.google.com/file/d/1Mdlrxw67Sys4mgJmBUZMhSVurN5GP3St/view?usp=sharing',
 };
@@ -50,7 +53,7 @@ export const skillsSection: SkillsSectionType = {
           '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
         ),
         emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
+        emoji('⚡ Building RESTful APIs in PHP & Ruby & NestJS REST Framework'),
       ],
       softwareSkills: [
         {
@@ -74,12 +77,16 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'vscode-icons:file-type-light-next',
         },
         {
-          skillName: 'Python',
-          fontAwesomeClassName: 'logos:python',
+          skillName: 'Ruby',
+          fontAwesomeClassName: 'logos:ruby',
         },
         {
-          skillName: 'Django',
-          fontAwesomeClassName: 'vscode-icons:file-type-django',
+          skillName: 'PHP',
+          fontAwesomeClassName: 'logos:php',
+        },
+        {
+          skillName: 'NestJs',
+          fontAwesomeClassName: 'logos:nestjs',
         },
 
         {

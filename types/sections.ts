@@ -18,7 +18,7 @@ export type SocialLinksType = {
 export type GreetingsType = {
   name: string;
   title: string;
-  description?: string;
+  descriptions?: string[];
   resumeLink?: string;
 };
 
