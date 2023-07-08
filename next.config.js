@@ -1,6 +1,6 @@
 const isGithubActions = process.env.GH_ACTIONS || true
 
-let assetPrefix = '/'
+let assetPrefix = ''
 let basePath = '/'
 
 if (isGithubActions) {
@@ -16,6 +16,6 @@ module.exports = {
   basePath: basePath,
   images: {
     loader: 'imgix',
-    path: 'the "domain" of your Imigix source',
+    path: 'siri2moon.imgix.net',
   },
 };
