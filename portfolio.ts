@@ -164,24 +164,10 @@ export const skillsSection: SkillsSectionType = {
       lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
-        ),
-        emoji(
-          '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
-        ),
-        emoji(
-          '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
-        ),
-        emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
-        emoji(
-          '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
+          '⚡ Building Dapps with React.js & Solidity using Web3.js'
         ),
       ],
       softwareSkills: [
-        {
-          skillName: 'Ethereum',
-          fontAwesomeClassName: 'logos:ethereum',
-        },
         {
           skillName: 'Solidity',
           fontAwesomeClassName: 'logos:solidity',
@@ -193,10 +179,6 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: 'Metamask',
           fontAwesomeClassName: 'logos:metamask-icon',
-        },
-        {
-          skillName: 'Ganache',
-          fontAwesomeClassName: 'logos:ganache-icon',
         },
       ],
     },
@@ -220,50 +202,53 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Danang University',
-    subHeader: 'Master of Science in Computer Science',
+    schoolName: 'Danang University of Education',
+    subHeader: 'Bachelor of Information Technology',
     duration: 'September 2011 - April 2015',
-    desc: 'Participated in the research of XXX and published 3 papers.',
+    desc: 'I graduated in bachelor of Information Technology',
     grade: 'Grade A',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'PHP developer',
+      'Javascript developer',
     ],
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Frontend Developer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Apr 2022 – Jun 2022',
-    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
+    role: 'Team Manager and Scrum master',
+    company: 'NEOLAB Vietnam',
+    companyLogo: '/img/exp/neolab.png',
+    date: 'Aug 2016 – May 2023',
+    desc: 'Worked closely with senior developer and learned advanced project management skills',
+    descBullets: [
+    	"Manage web project with 15 - 20 members as Team manager position",
+    	"Meet with PO to gather requirements, design site, and outline schedules.",
+    	"Training fresher",
+    ],
   },
   {
-    role: 'API Engineer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Jan 2022 – Mar 2022',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    role: 'Wordpress developer',
+    company: 'NTC Solutions Company',
+    companyLogo: '/img/exp/wp.png',
+    date: 'Apr 2016 – Jul 2016',
+    desc: 'This is startup company. Building websites with wordpress CMS.\n' +
+        'Designed websites for clients on a contact basic',
   },
   {
-    role: 'Full Stack Developer',
-    company: 'Bleed-AI',
-    companyLogo: '/img/icons/common/bleedAI.jpg',
-    date: 'Sept 2021 - Oct 2021',
-    desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
+    role: 'Junior Software Engineer',
+    company: 'FPT Software Danang',
+    companyLogo: '/img/exp/fpt.png',
+    date: 'Otc 2015 - Mar 2016',
+    desc: 'Worked at FPT Software company with Japanese customers. Developed project scope and created concepts\n' +
+        'Maintained schedules and assured on-time delivery of content',
   },
   {
-    role: 'Backend Developer',
-    company: 'Wapidu',
-    companyLogo: '/img/icons/common/wapidu.jpg',
-    date: 'Sept 2021',
-    desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
+    role: 'Teacher',
+    company: 'VinaEnter',
+    companyLogo: '/img/exp/vinaenter.png',
+    date: 'Jul 2014 - Oct 2015',
+    desc: 'Join teaching at the VinaEnter Center with PHP training courses and Java web training courses\n',
   },
 ];
 
@@ -287,22 +272,10 @@ export const projects: ProjectType[] = [
   {
     name: 'Shopaza (Ecommerce)',
     desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
   },
 ];
 
-export const feedbacks: FeedbackType[] = [
-  {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-  },
-  {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-  },
-];
+export const feedbacks: FeedbackType[] = [];
 
 // option to hide or show the ContactUs component
 export const showContactUs: boolean = false;
@@ -311,10 +284,10 @@ export const showContactUs: boolean = false;
 export const seoData: SEODataType = {
   title: 'Binh Nguyen',
   description:
-    'A passionate Full Stack Web Developer and Blockchain Developer.',
+    'A passionate Full Stack Web Developer and Team manager.',
   author: 'Binh Nguyen',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
+  image: 'https://avatars.githubusercontent.com/u/18733630?v1',
+  url: 'http://siri2moon.github.io',
   keywords: [
     'Binh',
     'Binh Nguyen',
