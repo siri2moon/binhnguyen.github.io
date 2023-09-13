@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: 'Binh Nguyen',
   title: "Hi all, I'm Binh",
   descriptions: [
-      "I'm passionate Full Stack web developer having an experience of web applications " +
+      "I'm a manager and passionate full stack web developer having an experience of web applications " +
       "with PHP, Ruby, NestJS, React.js, Next.js, VueJs. ",
       "I've worked as web developer for 8 years already. And 6 years for leading development team." +
       " I have strong knowledge of the PHP, OOP, Javascript and how identify and implements\n" +
